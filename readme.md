@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="https://github.com/Mikooo21/CI4-Pomarejos-SinSkinInk.git">
-    <img src="[/assets/img/nyebe_white.png](https://img.freepik.com/premium-vector/pixel-art-illustration-cheese-pixelated-cheese-cheese-pixelated-pixel-art-game-icon-fo_1038602-1529.jpg)" alt="Nugget" width="130" height="100">
+    <img src="https://img.freepik.com/premium-vector/pixel-art-illustration-cheese-pixelated-cheese-cheese-pixelated-pixel-art-game-icon-fo_1038602-1529.jpg)" alt="Nugget" width="130" height="100">
   </a>
 <!-- * Title Section -->
   <h3 align="center">Sin Skin Ink</h3>
@@ -86,12 +86,6 @@ These are **sample modules** included (or suggested) for learning how to add fea
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwindcss\&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge\&logo=codeigniter\&logoColor=white)
 
-#### Databases
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)
 
 <!-- ! Keep only the used technology -->
 
