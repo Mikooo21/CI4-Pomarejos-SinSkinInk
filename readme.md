@@ -54,12 +54,10 @@ This is website's purpose is to make tattoo appointments and show the tattoo art
 
 ## Overview
 
-This template provides a **minimal CodeIgniter 4 project layout** with conventions for file organization, commit practices, and simple modules.
+This is website's purpose is to make tattoo appointments and show the tattoo artist's profile.
 
-It is designed to be **easy to start with** and a **reference for adding new features**.
-
-* **Purpose**: a clean starting point for CI4 apps.
-* **Audience**: developers who want a predictable structure and quick onboarding.
+* **Purpose**: For appointments and show of talent by tattoo artist.
+* **Audience**: Users who want to get a tattoo and for the employees who wants to show of their work.
 
 ### Key Components
 
