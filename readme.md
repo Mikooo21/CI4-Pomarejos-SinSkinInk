@@ -4,21 +4,21 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/Mikooo21/CI4-Pomarejos-TattooBin.git">
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/Mikooo21/CI4-Pomarejos-SinSkinInk.git">
+    <img src="[/assets/img/nyebe_white.png](https://img.freepik.com/premium-vector/pixel-art-illustration-cheese-pixelated-cheese-cheese-pixelated-pixel-art-game-icon-fo_1038602-1529.jpg)" alt="Nugget" width="130" height="100">
   </a>
 <!-- * Title Section -->
-  <h3 align="center">AD - CI4 Template</h3>
+  <h3 align="center">Sin Skin Ink</h3>
 </div>
 
 <!-- * Description Section -->
 <div align="center">
-Lorem Ipsum
+This is website's purpose is to make tattoo appointments and show the tattoo artist's profile. It is also for us to learn how to make a proper website using the things we have learned.
 </div>
 
 <br/>
 
-![](https://visit-counter.vercel.app/counter.png?page=https://github.com/Mikooo21/CI4-Pomarejos-TattooBin.git)
+![](https://visit-counter.vercel.app/counter.png?page=Mikooo21/CI4-Pomarejos-SinSkinInk.git))
 
 <!-- ! Make sure it was similar to your github -->
 
@@ -79,7 +79,6 @@ These are **sample modules** included (or suggested) for learning how to add fea
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
 
 #### Framework/Library
