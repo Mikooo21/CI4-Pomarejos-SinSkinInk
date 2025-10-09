@@ -35,7 +35,7 @@
     <div class="w-full max-w-5xl mt-12">
         <h2 class="text-2xl font-bold mb-4 text-black text-left">Cards</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Inspiration Images (replace src with your own assets if available) -->
+            <!-- Inspiration Images -->
             <div class="flex flex-col items-center">
                 <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80" alt="Tattoo Studio" class="rounded-lg shadow-lg w-64 h-40 object-cover mb-2">
                 <span class="text-sm text-gray-600">Studio Ambience</span>
@@ -86,7 +86,6 @@
             </a>
         </div>
 </div>
-
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </body>
 </html>
