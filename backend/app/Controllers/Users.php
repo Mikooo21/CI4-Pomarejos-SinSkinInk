@@ -12,11 +12,11 @@ class Users extends BaseController
     }
     public function roadmap(): string
     {
-        return view('user/roadmap');
+        return view('user/road');
     }
     public function moodboard(): string
     {
-        return view('user/moodboard');
+        return view('user/mood');
     }
     public function button(): string
     {
