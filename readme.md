@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="https://github.com/Mikooo21/CI4-Pomarejos-SinSkinInk.git">
-    <img src="https://img.freepik.com/premium-vector/pixel-art-illustration-cheese-pixelated-cheese-cheese-pixelated-pixel-art-game-icon-fo_1038602-1529.jpg)" alt="Nugget" width="130" height="100">
+    <img src="https://img.freepik.com/premium-vector/pixel-art-illustration-cheese-pixelated-cheese-cheese-pixelated-pixel-art-game-icon-fo_1038602-1529.jpg" alt="Nugget" width="130" height="100">
   </a>
 <!-- * Title Section -->
   <h3 align="center">Sin Skin Ink</h3>
