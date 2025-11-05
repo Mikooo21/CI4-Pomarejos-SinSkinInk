@@ -114,5 +114,6 @@ class ExampleMigration extends Migration
 ]);
     $this->forge->addKey('Customer_ID', true);
     $this->forge->addUniqueKey('reservation_code');
+    $this->forge->dropTable('customer_table', true);
     }
 }
