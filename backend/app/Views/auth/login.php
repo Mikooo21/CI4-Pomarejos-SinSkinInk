@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<?
+    $errors = $errors ?? [];
+    $old = $old ?? [];
+?>
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
@@ -9,6 +13,18 @@
 </head>
 <body class="bg-black min-h-screen flex items-center justify-center">
     <div class="w-full max-w-2xl flex flex-col md:flex-row gap-8">
+        <form class="space-y-6 mt-8" action="/login" method="post" novalidate>
+                <input
+        id="email"
+        name="email"
+        type="email"
+        autocomplete="email"
+        required
+        value="<?= esc($old['email'] ?? '') ?>"
+        aria-invalid="<?= isset($errors['email']) ? 'true' : 'false' ?>" aria-describedby="email-error">
+    <?php if (! empty($errors['email'])): ?>
+        <p id="email-error" class="mt-2 text-red-600 text-sm"><?= esc($errors['email']) ?></p>
+    <?php endif; ?>
         <!-- Sign In Box -->
         <div class="flex-1 bg-white rounded-lg shadow-lg p-8">
             <h2 class="text-2xl font-bold text-red-700 mb-6 text-center">Sign In</h2>

@@ -1,3 +1,18 @@
+<?
+    $errors = $errors ?? [];
+    $old = $old ?? [];
+?>
+    <input
+        id="email"
+        name="email"
+        type="email"
+        autocomplete="email"
+        required
+        value="<?= esc($old['email'] ?? '') ?>"
+        aria-invalid="<?= isset($errors['email']) ? 'true' : 'false' ?>" aria-describedby="email-error">
+    <?php if (! empty($errors['email'])): ?>
+    <p id="email-error" class="mt-2 text-red-600 text-sm"><?= esc($errors['email']) ?></p>
+    <?php endif; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +20,7 @@
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Tailwind CSS via CDN -->
+
     <script src="https://cdn.tailwindcss.com"></script>
 </head><body class="bg-black min-h-screen flex items-center justify-center">
         <div class="flex-1 bg-white rounded-lg shadow-lg p-8">
