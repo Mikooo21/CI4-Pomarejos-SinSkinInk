@@ -1,5 +1,6 @@
 
 <?= view('components/head', ['active' => 'Home']) ?>
+<?= view('components/header', ['active' => 'Home']) ?>
 <body class="bg-black text-white min-h-screen flex flex-col">
 <div class="min-h-screen bg-white flex flex-col items-center py-12 px-4">
     <h1 class="text-4xl font-bold mb-6 text-black tracking-tight">Sin Skin Ink Moodboard</h1>
