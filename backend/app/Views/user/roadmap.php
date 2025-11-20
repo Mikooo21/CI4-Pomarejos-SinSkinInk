@@ -1,4 +1,5 @@
 <?= view('components/header', ['active' => 'Home']) ?>
+<?= view('components/head')?>
 <div class="max-w-3xl mx-auto py-12 px-4">
     <h1 class="text-3xl font-bold mb-6 text-center">Sin Skin Ink Roadmap</h1>
     <div class="bg-white rounded-lg shadow p-6">
@@ -41,6 +42,5 @@
         </div>
     </div>
 </div>
-
 <!-- Tailwind CDN (for dev/demo only) -->
 <script src="https://cdn.tailwindcss.com"></script>

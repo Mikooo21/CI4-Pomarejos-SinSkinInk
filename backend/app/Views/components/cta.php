@@ -7,4 +7,4 @@
         </p>
         <a href="#contact" class="inline-block bg-red-600 hover:bg-red-800 text-white font-semibold px-8 py-3 rounded-full shadow-lg transition">    Book a Session
         </a>
-    </section>\
+    </section>

@@ -10,6 +10,8 @@
 <style>
     h1 {
         font-family: 'New Rocker', cursive;
+        color: #ffffffff;
+
     }
     nav a {
         font-family: 'Cormorant Garamond', serif;

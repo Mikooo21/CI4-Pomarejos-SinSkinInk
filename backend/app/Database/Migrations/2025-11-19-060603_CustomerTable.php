@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class CreateUsersTabel extends Migration
+class CreateUsersTable extends Migration
 {
     public function up(): void
     {
@@ -40,9 +40,14 @@ class CreateUsersTabel extends Migration
         'constraint' => 255,
         'null'       => false,
     ],
+     'type' => [
+        'type'       => 'VARCHAR',
+        'constraint' => 50,
+        'null'       => false,
+    ],
     'deleted_at' => [
         'type' => 'DATETIME',
-        'null' => false,
+        'null' => true,
     ],
     'created_at' => [
         'type' => 'DATETIME',

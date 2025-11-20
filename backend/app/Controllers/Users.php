@@ -22,4 +22,12 @@ class Users extends BaseController
     {
         return view('components/button');
     }
+    public function login(): string
+    {
+        return view('Auth/login');
+    }
+      public function signup(): string
+    {
+        return view('Auth/signup');
+    }
 }

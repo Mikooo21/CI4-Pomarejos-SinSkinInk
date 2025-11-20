@@ -8,6 +8,7 @@
     <!-- Hero Section -->
     <?= view('components/cta', ['active' => 'Home']) ?>
 
+
     <!-- Artists Section -->
     <?= view('components/card/card', ['active' => 'Home']) ?>
 

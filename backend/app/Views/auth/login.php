@@ -1,48 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<?
-    $errors = $errors ?? [];
-    $old = $old ?? [];
-?>
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Login - SinSkinInk</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-black min-h-screen flex items-center justify-center">
-    <div class="w-full max-w-2xl flex flex-col md:flex-row gap-8">
-        <form class="space-y-6 mt-8" action="/login" method="post" novalidate>
-                <input
-        id="email"
-        name="email"
-        type="email"
-        autocomplete="email"
-        required
-        value="<?= esc($old['email'] ?? '') ?>"
-        aria-invalid="<?= isset($errors['email']) ? 'true' : 'false' ?>" aria-describedby="email-error">
-    <?php if (! empty($errors['email'])): ?>
-        <p id="email-error" class="mt-2 text-red-600 text-sm"><?= esc($errors['email']) ?></p>
-    <?php endif; ?>
-        <!-- Sign In Box -->
-        <div class="flex-1 bg-white rounded-lg shadow-lg p-8">
-            <h2 class="text-2xl font-bold text-red-700 mb-6 text-center">Sign In</h2>
-            <form action="<?= site_url('login') ?>" method="post" class="mb-8">
-                <?= csrf_field() ?>
-                <div class="mb-4">
-                    <label for="login_email" class="block text-red-700 mb-1">Email</label>
-                    <input type="email" id="login_email" name="email" required
-                           class="w-full px-3 py-2 border border-red-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
-                </div>
-                <div class="mb-4">
-                    <label for="login_password" class="block text-red-700 mb-1">Password</label>
-                    <input type="password" id="login_password" name="password" required
-                           class="w-full px-3 py-2 border border-red-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
-                </div>
-                <button type="submit"
-                        class="w-full bg-red-700 text-white py-2 rounded hover:bg-red-800 transition">Sign In</button>
-            </form>
+    <div class="w-full max-w-md bg-white rounded-lg shadow-lg p-8">
+        <div class="mb-4">
+            <a href="javascript:history.back()" class="inline-flex items-center text-red-700 hover:text-black font-semibold">
+                <svg class="h-5 w-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+                Back
+            </a>
+        </div>
+        <h1 class="text-3xl font-bold text-center text-red-700 mb-6">Login</h1>
+        <form method="post" action="<?= site_url('login') ?>" class="space-y-5">
+            <?= csrf_field() ?>
+            <div>
+                <label for="email" class="block text-black font-semibold mb-2">Email</label>
+                <input type="email" name="email" id="email" required
+                    class="w-full px-4 py-2 border border-black rounded focus:outline-none focus:ring-2 focus:ring-red-700 bg-white text-black" />
+            </div>
+            <div>
+                <label for="password" class="block text-black font-semibold mb-2">Password</label>
+                <input type="password" name="password" id="password" required
+                    class="w-full px-4 py-2 border border-black rounded focus:outline-none focus:ring-2 focus:ring-red-700 bg-white text-black" />
+            </div>
+            <button type="submit"
+                class="w-full py-2 px-4 bg-red-700 text-white font-bold rounded hover:bg-black transition-colors">
+                Sign In
+            </button>
+        </form>
+        <div class="mt-6 text-center">
+            <a href="<?= site_url('/signup') ?>" class="text-red-700 hover:underline font-semibold">Create an account</a>
         </div>
     </div>
 </body>

@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class User extends Model
+class UserModel extends Model
 {
-    protected $table            = 'tableNameHere';
+    protected $table            = 'customer_table';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = '\App\\Entities\\User';
